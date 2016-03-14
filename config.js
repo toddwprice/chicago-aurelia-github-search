@@ -16,6 +16,10 @@ System.config({
   map: {
     "aurelia-animator-css": "npm:aurelia-animator-css@1.0.0-beta.1.1.2",
     "aurelia-bootstrapper": "npm:aurelia-bootstrapper@1.0.0-beta.1.1.4",
+<<<<<<< HEAD
+=======
+    "aurelia-dialog": "npm:aurelia-dialog@0.5.7",
+>>>>>>> custom-elements
     "aurelia-fetch-client": "npm:aurelia-fetch-client@1.0.0-beta.1.1.1",
     "aurelia-framework": "npm:aurelia-framework@1.0.0-beta.1.1.4",
     "aurelia-history-browser": "npm:aurelia-history-browser@1.0.0-beta.1.1.4",
@@ -83,6 +87,15 @@ System.config({
       "aurelia-logging": "npm:aurelia-logging@1.0.0-beta.1.1.2",
       "aurelia-metadata": "npm:aurelia-metadata@1.0.0-beta.1.1.6",
       "aurelia-pal": "npm:aurelia-pal@1.0.0-beta.1.1.1"
+<<<<<<< HEAD
+=======
+    },
+    "npm:aurelia-dialog@0.5.7": {
+      "aurelia-dependency-injection": "npm:aurelia-dependency-injection@1.0.0-beta.1.1.5",
+      "aurelia-metadata": "npm:aurelia-metadata@1.0.0-beta.1.1.6",
+      "aurelia-pal": "npm:aurelia-pal@1.0.0-beta.1.1.1",
+      "aurelia-templating": "npm:aurelia-templating@1.0.0-beta.1.1.4"
+>>>>>>> custom-elements
     },
     "npm:aurelia-event-aggregator@1.0.0-beta.1.1.1": {
       "aurelia-logging": "npm:aurelia-logging@1.0.0-beta.1.1.2"
