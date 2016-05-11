@@ -239,6 +239,10 @@ System.config({
       "tree.js"
     ],
     "aurelia.js": [
+      "github:github/fetch@0.11.1.js",
+      "github:github/fetch@0.11.1/fetch.js",
+      "github:systemjs/plugin-text@0.0.3.js",
+      "github:systemjs/plugin-text@0.0.3/text.js",
       "github:twbs/bootstrap@3.3.6.js",
       "github:twbs/bootstrap@3.3.6/css/bootstrap.css!github:systemjs/plugin-text@0.0.3.js",
       "github:twbs/bootstrap@3.3.6/js/bootstrap.js",
@@ -250,6 +254,20 @@ System.config({
       "npm:aurelia-bootstrapper@1.0.0-beta.1.2.1/aurelia-bootstrapper.js",
       "npm:aurelia-dependency-injection@1.0.0-beta.1.2.3.js",
       "npm:aurelia-dependency-injection@1.0.0-beta.1.2.3/aurelia-dependency-injection.js",
+      "npm:aurelia-dialog@0.5.10.js",
+      "npm:aurelia-dialog@0.5.10/aurelia-dialog.js",
+      "npm:aurelia-dialog@0.5.10/dialog-configuration.js",
+      "npm:aurelia-dialog@0.5.10/dialog-controller.js",
+      "npm:aurelia-dialog@0.5.10/dialog-options.js",
+      "npm:aurelia-dialog@0.5.10/dialog-service.js",
+      "npm:aurelia-dialog@0.5.10/lifecycle.js",
+      "npm:aurelia-dialog@0.5.10/renderers/dialog-renderer.js",
+      "npm:aurelia-dialog@0.5.10/renderers/renderer.js",
+      "npm:aurelia-dialog@0.5.10/resources/ai-dialog-body.js",
+      "npm:aurelia-dialog@0.5.10/resources/ai-dialog-footer.js",
+      "npm:aurelia-dialog@0.5.10/resources/ai-dialog-header.js",
+      "npm:aurelia-dialog@0.5.10/resources/ai-dialog.js",
+      "npm:aurelia-dialog@0.5.10/resources/attach-focus.js",
       "npm:aurelia-event-aggregator@1.0.0-beta.1.2.1.js",
       "npm:aurelia-event-aggregator@1.0.0-beta.1.2.1/aurelia-event-aggregator.js",
       "npm:aurelia-fetch-client@1.0.0-beta.1.2.5.js",
@@ -326,7 +344,11 @@ System.config({
       "npm:aurelia-templating@1.0.0-beta.1.2.6.js",
       "npm:aurelia-templating@1.0.0-beta.1.2.6/aurelia-templating.js",
       "npm:jquery@2.2.3.js",
-      "npm:jquery@2.2.3/dist/jquery.js"
+      "npm:jquery@2.2.3/dist/jquery.js",
+      "npm:moment@2.13.0.js",
+      "npm:moment@2.13.0/moment.js",
+      "npm:pikaday@1.4.0.js",
+      "npm:pikaday@1.4.0/pikaday.js"
     ]
   },
   depCache: {
