@@ -11,7 +11,7 @@ export class Folder {
   }
 
   showDialog() {
-    $('i.folder-dialog-open').addClass('spinner');
+    alert('open');
     this.dialogService.open({ viewModel: TreeDialog, model: this.selectedFolder }).then((result) => {
       if (!result.wasCancelled) {
         console.log('result', result);
